@@ -1,0 +1,23 @@
+{
+    "name": "07-restserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+        "node": "12.18.3"
+    },
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^3.0.6",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "mongoose": "^5.10.13",
+        "mongoose-unique-validator": "^2.0.3",
+        "underscore": "^1.11.0"
+    }
+}
